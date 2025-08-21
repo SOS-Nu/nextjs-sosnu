@@ -10,22 +10,25 @@
     "post-update": "echo \"codesandbox preview only, need an update\" && pnpm update --latest"
   },
   "dependencies": {
-    "@emotion/cache": "latest",
-    "@emotion/react": "latest",
-    "@emotion/styled": "latest",
-    "@mui/icons-material": "latest",
-    "@mui/material": "latest",
-    "@mui/material-nextjs": "latest",
-    "next": "^15.0.0",
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^7.3.0",
+    "@mui/material": "^7.3.0",
+    "@mui/material-nextjs": "^7.0.0",
+    "@types/slick-carousel": "^1.6.40",
+    "next": "^15.4.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-stick": "^5.0.7",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "eslint": "latest",
-    "eslint-config-next": "^15.0.0",
-    "typescript": "latest"
+    "@types/node": "^20.11.30",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "eslint": "^9.3.0",
+    "eslint-config-next": "^15.4.4",
+    "typescript": "^5.9.2"
   }
 }
