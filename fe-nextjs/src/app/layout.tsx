@@ -6,6 +6,7 @@ import InitColorSchemeScript from "@mui/material/InitColorSchemeScript";
 import theme from "@/theme";
 import ModeSwitch from "@/components/ModeSwitch";
 import HeaderBar from "@/components/header/header";
+import AppFooter from "@/components/footer/app.footer";
 
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
@@ -15,10 +16,11 @@ export default function RootLayout(props: { children: React.ReactNode }) {
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
             {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
-            {/* <CssBaseline /> */}
+            <CssBaseline />
             <ModeSwitch />
             <HeaderBar />
             {props.children}
+            <AppFooter />
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

@@ -22,6 +22,7 @@
     "query-string": "9.2.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-h5-audio-player": "^3.10.1",
     "react-slick": "^0.31.0",
     "react-stick": "^5.0.7",
     "slick-carousel": "^1.8.1"
